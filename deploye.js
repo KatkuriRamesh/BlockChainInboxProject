@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const {interface, bytecode}=require('./compile')
 
 const provder=new HDWalletProvider(
-"drama index explain artefact urge quarter grid cement gather strike merge amount",
-"https://rinkeby.infura.io/v3/2e058d8accca45b3a1d306c2e1dd7ab8"
+  "drama index explain artefact urge quarter grid cement gather strike merge amount",
+  "https://rinkeby.infura.io/v3/2e058d8accca45b3a1d306c2e1dd7ab8"
 );
 const web3=new Web3(provder);
 
